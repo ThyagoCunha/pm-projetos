@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+  background-color: #e6e6e6;
+    padding: 10px;
+}
+
+div#noticia,div#noticia2,div#noticia3{
+    padding-bottom: 20px;
+    background: #ffffff;
+    box-shadow: 1px 1px 4px rgba(0,0,0,.4);
+    width: 350px;
+    height: 100%;
+    margin:auto;
+    margin-bottom: none;
+    margin-top: 10px;
+}
+div#noticia{
+    margin-top:inherit;
+    border-radius: 10px 10px 9px 9px;
+}
+
+ img#cratera {
+    width: 350px;
+    height: 200px;
+    padding-bottom: 10px;
+     border-radius: 10px ;
+    
+    
+}
+
+h1,h2,h3,h4{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.noticia .texto{
+    padding: 18px;
+}
+
+h1{
+  color: #b5000d;
+  font-size: 16px;
+  
+  padding-left: 10px;
+  padding-right: 9px;
+  padding-top: 7px;
+  padding-bottom: 9px;
+  
+}
+
+p{
+    padding-left: 10px;
+    padding-bottom: 27px;
+    padding-right: 9px;
+    padding-top: 9px;
+    font-size: 14px;
+    color: #333333;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    text-align: justify;
+}
+div.detalhes{
+    margin-left: 10px;
+}
+span.detalhes{
+    font-size: 14px;
+    color: #333333;
+   
+    padding-left: 10px;
+    
+}
+span.quando{
+    margin-left: 10px;
+    width: 81%;
+    margin-top: -15px;
+    font-size: 11px;
+    color: #999999;
+    
+    
+}
+
+
