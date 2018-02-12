@@ -1,0 +1,147 @@
+main {
+   background-color: #ffffff;
+   display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+
+main div#wallet h2{
+    font-family: 'muli',sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 13px;
+    font-size: 16px;
+    font-weight: 400px;
+    color: #777879;
+}
+
+main div#wallet{
+    
+    padding-left: 10px;
+}
+
+main div#wallet div{
+    align-items: center;
+    margin-top: -5px ;
+    display: inline-block;
+    width: 109px;
+    height: 96px;
+    margin-left: 10px;
+    border-radius: 4px;
+    
+}
+
+main div#wallet div img{
+   justify-content: center;
+    margin-left: 18px;
+    margin-top: 15px;
+}
+
+
+main div#wallet div small{
+    font-family: 'muli',sans-serif;
+    color: #c6c6c6;
+    font-size: 13px;
+    justify-content: center;
+    margin-left: 7px;
+   
+
+}
+
+main div#wallet div a{
+    text-decoration: none;
+    align-items: center;
+    
+}
+
+main div#wallet div#img:hover{
+  background-color: #f5f9fd; 
+    box-shadow: inset 0 0 2px #d1e3f5; 
+    
+
+      
+}
+
+h2#new {
+    padding-bottom: 8px;
+    border-bottom: 1px solid #979797;
+    width: 355px;
+    margin-left: -1px;
+}
+form{
+    display:inline-table;
+    width: 355px;
+    margin-left:39px;
+    
+}
+
+input{
+    
+    margin-top: 20px;
+    width: 270px;
+    height: 40px;
+    
+}
+
+input#data{
+    
+    width: 149px;
+    margin-right: 21px
+    
+    
+}
+input#cvc{
+    width: 96px;
+    
+    
+    
+}
+
+div#meio{
+    
+    display: inline-block;
+}
+
+input#check{
+    background: #fff;
+    
+    width: 15px;
+    height: 15px;
+    border: 1px solid #eaebec;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+    
+}
+  label{
+    padding: 9px;
+    color: #777879;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+
+button{
+    background-color: #8bd638;
+    border: none;
+    border-radius: 2px;
+    width: 289px;
+    height: 44px;
+    color: #fff;
+    font-weight: bold;
+    margin-left: -10px;
+  
+}
+
+::-webkit-input-placeholder{
+    color: #c4cbd0;
+  padding-left: 10px;
+    font-family: 'muli',sans-serif;
+    font-weight: 400px;
+    font-size: 14px;
+}
+
+

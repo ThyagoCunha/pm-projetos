@@ -1,0 +1,46 @@
+@import url(header.css);
+@import url(wallet.css);
+@import url(carrinho.css);
+
+html{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-image: url(../_imagens/img-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+header div h2{
+  margin: 0px; padding: 0px;  
+}
+
+section#checkout{
+    width: 688px;
+    height: 558px;
+    background-color: #fff
+}
+
+
+
+main#principal{
+    display: flex;
+}
+
+main #wallet{
+    
+   
+    width: 55%;
+    height: 200px;
+
+}
+
+main #carrinho{
+    background-color:#ebebeb;
+    width: 45%;
+    height: 518px;
+}
+
+

@@ -1,0 +1,67 @@
+
+@import url(sidebar.css);
+
+
+body{
+    background-color: #f5f8f9;
+}
+section{
+    background-color: #ffffff;
+    height: 100vw;
+    border-right: 1px solid #e1e1e1;
+}
+
+section .content  {
+    padding: 30px;
+    font-size: 0.938em;
+    color: #666666;
+    
+}
+
+section .content small {
+    margin-right: 10px;
+}
+
+section .content h3{
+    margin-top: 10px;
+    font-weight: bold;
+    color:#d0021b ;
+    font-size: 1.125em;
+    font-weight: 700px;
+    border-bottom: 1px solid #d0021b;
+    padding-bottom: 5px;
+}
+
+table.table tr th.cargo{
+    width: 220px;
+}
+
+table.table tr th.cargo h4{
+    font-weight: 800;
+    font-size: 1.000em;
+    color: #3a3c40;
+    margin: 0px
+}
+
+table.table tr th.cargo h5{
+    margin-top: 5px;
+    font-weight: 500;
+    font-size: 1.133em;
+    color: #3a3c40;
+    margin-bottom: 0px;
+}
+
+table.table tr th.cargo small{
+    margin-top: 5px;
+    font-weight:lighter;
+    font-size: 1.133em;
+    color: #3a3c40;
+}
+
+table tr th.desc{
+    font-weight:inherit;
+}
+
+
+
+

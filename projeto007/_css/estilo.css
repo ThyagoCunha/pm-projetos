@@ -1,0 +1,251 @@
+body{
+  font-family: 'Lato',sans-serif;
+    -webkit-font-smoothing:antialiased;
+}
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.botao{
+    background-color:#ff3d7f;
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0px 6px 0px 0px  #a32751;
+    font-size: 25px;
+    border-radius: 3px;
+    
+}
+
+header{
+    margin-bottom: -100px;
+}
+
+header h1{
+    margin: 0px;
+    background-image: url(../_imagens/img-icon.png);
+    background-repeat: no-repeat;
+    width: 177px;
+    height: 76px;
+    margin-top: 20px;
+}
+
+header h1 span{
+    visibility: hidden;
+}
+
+header nav ul{
+    padding-right: 80px;
+    margin: 0px;
+    margin-top: 15px;
+}
+
+header nav li{
+    list-style: none;
+    display: inline-block;
+    justify-content: center;
+    margin-right: 80px;
+}
+
+header nav li:last-child{
+    border: 1px solid #fff;
+    border-radius: 3px;
+    padding: 10px 30px 10px;
+}
+
+header nav li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    
+    
+}
+
+section#topo{
+    background-image: url(../_imagens/fundo.png);
+    height: 700px;
+    background-size: cover;
+    
+    background-position: top; 
+}
+
+section#topo .chamada{
+    color: #fff;
+    margin-top: 250px;
+    text-align: center;
+    
+}
+
+section#topo .chamada h2{
+    margin: 0px;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+section#topo .chamada p{
+    margin: 0px;
+    font-size: 26px;
+    margin-bottom: 10px;
+        
+}
+
+
+
+/* responsividade*/
+@media (max-width:600px){
+    header nav {
+        display: none;
+    }
+    
+    header h1{
+        margin-left: 20px;
+    }
+}
+
+section#conheca {
+    padding: 60px;
+}
+
+section#conheca .querer{
+    color: #000000;
+    margin-top: 50px;
+    text-align: center;
+    padding-right: 80px;
+    
+}
+section#conheca img{
+    text-align: center;
+   padding-left: 80px;
+    padding-right: 50px;
+}
+
+section#conheca{
+    max-width: 1600px;
+    text-align: center;
+}
+
+section#conheca h2,p{
+    text-align: justify;
+    width: 320px;
+    
+}
+
+  a#quero.botao {
+    margin-top: 50px;
+    width: 290px;
+    height: 73;
+}
+
+
+section#depoimento{
+    height:439px; 
+    border-top: 3px solid #511099;
+    background-color: #ebe8fb;
+    
+    
+}
+
+section#depoimento img{
+   padding: 65px; 
+    position:absolute;
+    left: 40%;
+    
+    
+}
+div#dep p,h3{
+   margin-top: 237px;
+    
+}
+div#dep p{
+    
+    text-align: center;
+    width: 947px;
+    height: 53px;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+div#dep h3{
+    margin-top: 10px;
+    text-align: center;   
+}
+
+section#convite {
+    
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-image: url(../_imagens/img-bgE.png);
+    background-size: cover;
+    
+    
+}
+section#convite .container{
+    flex-direction: column;
+    align-items: center;
+}
+
+section#convite form{
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgba(255,255,255,.89);
+    width: 100%; 
+    border-radius: 3px;
+    display: flex;
+}
+
+
+
+section#convite input{
+    width: 461px;
+    text-align: center;
+    border:none;
+    background-color: transparent;
+    height: 30px;
+}
+
+
+
+section#convite button{
+    background-image: url(../_imagens/img-iconemail.png);
+    background-color: transparent;
+    border: none;
+    width: 85px;
+    height: 46px;
+    background-repeat: no-repeat;
+}
+
+section#convite button span{
+    
+  visibility: hidden;
+
+}
+
+
+
+footer{
+    border-top: 2px solid white; 
+    background-color: #2a0157;
+    color: #ffffff;  
+}
+
+footer p{
+    font-weight: 300;
+    font-size: 18px;
+    width: 372px;
+    text-align: center;
+    margin-left:  30%;
+}
+
+
+
+
+
+
+
+
+
